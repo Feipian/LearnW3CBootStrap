@@ -1,0 +1,27 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:asset/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Ming ",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.15",
+    "bootstrap": "^5.3.1",
+    "postcss-cli": "^10.1.0"
+  }
+}
